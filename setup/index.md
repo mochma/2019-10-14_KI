@@ -22,12 +22,20 @@ these scripts:
 4.  Run it from the shell:
 
     ~~~
-    $ python swc-installation-test-2.py
-    check virtual-shell...  pass
+    $ python swc-installation-test-2.py git bash jupyter pandas matplotlib
+    check Git (git)...			pass
+    check Bourne Again Shell (bash)...	pass
+    check Jupyter (jupyter)...		pass
+    check Pandas (pandas)...		pass
+    check Matplotlib (matplotlib)...	pass
     ...
     Successes:
 
-    virtual-shell Bourne Again Shell (bash) 4.2.37
+    Git (git) 2.20.1
+    Bourne Again Shell (bash) 4.4.23
+    Jupyter (jupyter) unknown
+    Pandas (pandas) 0.23.4
+    Matplotlib (matplotlib) 3.0.2
     ...
     ~~~
 
@@ -35,17 +43,7 @@ these scripts:
 
     ~~~
     $ python swc-installation-test-2.py
-    check virtual-shell...  fail
-    ...
-    check for command line shell (virtual-shell) failed:
-      command line shell (virtual-shell) requires at least one of the following dependencies
-      For instructions on installing an up-to-date version, see
-      http://software-carpentry.org/setup/
-      causes:
-      check for Bourne Again Shell (bash) failed:
-        could not find 'bash' executable for Bourne Again Shell (bash)
-        For instructions on installing an up-to-date version, see
-        http://software-carpentry.org/setup/
+    check Bourne Again Shell (bash)...  fail
     ...
     ~~~
 
@@ -54,8 +52,8 @@ these scripts:
     option:
 
     ~~~
-    $ python swc-installation-test-2.py --verbose
-    check virtual-shell...  fail
+    $ python swc-installation-test-2.py bash --verbose
+    check Bourne Again Shell (bash)...  fail
     ...
     ==================
     System information
