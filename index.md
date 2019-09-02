@@ -191,6 +191,11 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+<p id="registration">
+  <strong>Registration</strong>:
+  Please register here
+</p>
+
 <hr/>
 
 {% comment %} 
