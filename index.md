@@ -193,7 +193,7 @@ Display the contact email address set in the configuration file.
 
 <p id="registration">
   <strong>Registration</strong>:
-  Please [register here](https://docs.google.com/forms/d/e/1FAIpQLSfQf5Xgfwa2vnCmMlTNmLFr7miPJDM5CwQTUYFjLTyyE7GTSw/viewform?vc=0&c=0&w=1)
+  Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQf5Xgfwa2vnCmMlTNmLFr7miPJDM5CwQTUYFjLTyyE7GTSw/viewform?vc=0&c=0&w=1">register here<a>
 </p>
 
 <hr/>
